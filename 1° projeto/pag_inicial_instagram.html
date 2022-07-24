@@ -1,0 +1,76 @@
+<html>
+    <head>
+      <meta charset="utf-8">
+      <title>Recriando a página inicial do Instagram (Rodrigo Morais).</title>
+      <link rel="stylesheet" href="style.css">
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" rel="stylesheet" />
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" rel="stylesheet" />
+    </head>
+    <body>
+      <div class="instagramLog">
+        <div class="imgInstagramMobile">
+          <div class="mobileInstagram">
+            <div class="slickInstagram" id="slickInstagram">
+              <div>
+                <img src="img/instagram-celular-img1.png" alt="Instagram illustration (mobile)">
+              </div>
+              <div>
+                <img src="img/instagram-celular-img2.png" alt="Instagram illustration (mobile)">
+              </div>
+              <div>
+                <img src="img/instagram-celular-img3.png" alt="Instagram illustration (mobile)">
+              </div>
+              <div>
+                <img src="img/instagram-celular-img4.png" alt="Instagram illustration (mobile)">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="acess">
+          <div class="log">
+            <img src="img/instagram-logo.png" class="tittleInstagram" alt="Instagram">
+            <img src="img/rodrigoMorais.jpeg" class="user" alt="User">
+            <a href="#" class="linkAcess">Continue com RodrigoMorais</a>
+            <a href="#">Remover conta</a>
+          </div>
+          <div class="suport">
+            <p>Não é RodrigoMorais
+              <br>
+              <a href="#">Alternar contas</a>
+              ou
+              <a href="#">Inscreva-se</a>
+            </p>
+          </div>
+          <div class="downApp">
+            <p>Baixe o aplicativo</p>
+            <div class="app">
+              <a href="#">
+                <img src="img/apple-button.png" alt="Download on the AppStore">
+              </a>
+              <a href="#">
+                <img src="img/googleplay-button.png" alt="Download on the Google Play">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
+
+      <script type="text/javascript">
+        $(document).ready(function(){
+          $('#slickInstagram').slick({
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            arrows:false
+          });
+        });
+      </script>
+
+    </body>
+</html>
